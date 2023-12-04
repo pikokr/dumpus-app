@@ -38,7 +38,7 @@ export const links = [
   },
 ] satisfies (Link & { desktop?: boolean })[];
 
-export const DEFAULT_PACKAGE_API_URL = "https://api.dumpus.app";
+export const DEFAULT_PACKAGE_API_URL = "https://dumpus-api.paring.moe";
 
 export const DEFAULT_REMOTION_API_URL = "https://remotion-api.sys.dumpus.app";
 
@@ -46,9 +46,9 @@ export const DEFAULT_WIDGET_API_URL = "https://widget.dumpus.app";
 
 export const SQL_DEFAULT_LIMIT = 20;
 
-export const BASE_URL = "https://web.dumpus.app";
+export const BASE_URL = "https://dumpus.paring.moe";
 
-export const SITE_NAME = "Dumpus";
+export const SITE_NAME = "Dumpus hosted by paring";
 
 export const ESTIMATED_QUEUE_DURATION = 60 * 2 * 1000; // 2m in ms
 
